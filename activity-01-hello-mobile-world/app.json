@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Hello Mobile World",
+    "slug": "activity-01-hello-mobile-world",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.telebort.activity01"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.telebort.activity01"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

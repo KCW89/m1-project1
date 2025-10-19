@@ -1,0 +1,34 @@
+PLACEHOLDER NOTICE
+==================
+
+The following image files are NOT included in this template to keep the size small:
+
+Required Images (to be added by instructor or auto-generated):
+- icon.png (1024x1024) - App icon
+- splash.png (2732x2732) - Splash screen
+- adaptive-icon.png (1024x1024) - Android adaptive icon
+- logo.png (200x200) - Example logo used in App.js
+
+TEMPORARY SOLUTION FOR TESTING:
+--------------------------------
+
+The app will work without these images, but you may see warnings.
+
+To add placeholder images quickly:
+
+1. Use Expo default icons:
+   - Expo will auto-generate if missing
+
+2. Use web images temporarily in App.js:
+   Replace:
+   <Image source={require('./assets/logo.png')} />
+
+   With:
+   <Image source={{ uri: 'https://picsum.photos/200/200' }} />
+
+3. Download sample assets:
+   - Visit: https://expo.github.io/vector-icons/
+   - Or use: https://unsplash.com/
+
+The template code is complete and functional!
+Images are cosmetic and can be added later.
